@@ -1,0 +1,160 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+
+/*Reset*/
+html, body {
+   margin: 0;
+   padding: 0;
+   font-family: Lato;
+   
+}
+
+/*Dimenstions of each section */
+
+#topbar {
+  height: 80px;
+}
+
+#main {
+  /*margin-top: -50px;*/
+  height: 649px;
+}
+
+#about {
+  height: 310px;
+}
+
+#features-white {
+   height: 430px;
+}
+
+#features-grey {
+   height: 483px;
+}
+
+#footer-links {
+   height: 208px;
+}
+
+#footer-langs {
+   height: 150px;
+}
+
+/*Colors*/
+.bck-white {
+   background-color: hsl(240, 10%, 95%);
+}
+
+.bck-black {
+   background-color: hsl(0, 5%, 13%);
+}
+
+.bck-grey {
+   background-color: hsl(200, 18%, 40%);
+}
+
+/* Header */
+#topbar img {
+   clear: left;
+   height: 45px;
+   margin-top: 16px;
+   margin-left: 52px;
+}
+#topbar nav {
+   margin-top: 15px;
+   margin-right: 40px;
+   float: right;
+}
+
+#topbar nav ul li {
+   display: inline;
+   padding-right: 8px;
+   padding-left: 8px;
+} 
+
+#topbar nav ul li a {
+   text-decoration: none;
+   color: hsl(240, 10%, 40%);
+   font-weight: bold;
+}
+
+
+#topbar nav ul li a:hover {
+   color: hsl(46, 77%, 56%);
+}
+
+#left-indent {
+   padding-left: 30px;
+}
+
+/* Content */
+
+.center-text {
+   width: 76%;
+   height: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.label {
+}
+
+.big-p{
+}
+
+
+/* Main */
+
+#Tox-Logo-Main {
+   width: 488px;
+   height: 269px;
+   margin-left: auto;
+   margin-right: auto;
+ border-style: dotted;
+ border-color: hsl(0, 5%, 13%);
+}
+
+#Tox-Logo-Main img{
+   display: block;
+   width: 100%;
+   height: auto;
+   margin-top: 50px;
+}
+
+#main h1 {
+   color: hsl(46, 77%, 56%);
+   font-size: 42px;
+   text-align: center;
+   margin: 0;
+}
+
+#main h3, #about h3 {
+   color: hsl(240, 10%, 95%);
+   font-size: 29px;
+   text-align: center;
+   font-weight: 200;
+   margin: 0;
+   
+}
+
+/* About */
+
+#about h1 {
+   color: hsl(240, 10%, 95%);
+   font-size: 42px;
+   text-align: center;
+   margin: 0;
+   padding-top: 55px;
+}
+
+
+/*features*/
+
+#features-white h1 {
+  color: hsl(46, 77%, 56%);
+  font-size: 42px;
+  margin: 0;
+  text-align: center;
+
+}
+

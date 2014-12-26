@@ -25,7 +25,7 @@ html, body {
 }
 
 #features-white {
-   height: 430px;
+   height: 870px;
 }
 
 #features-grey {
@@ -151,10 +151,53 @@ html, body {
 /*features*/
 
 #features-white h1 {
-  color: hsl(46, 77%, 56%);
+  color: hsl(240, 10%, 40%);
   font-size: 42px;
   margin: 0;
   text-align: center;
+  padding-top: 60px;
 
 }
+
+#features-white img {
+  display: inline-block;
+  float: left;
+  margin-top: 18px;
+}
+
+#features-white-wrapper {
+  border-style: dotted;
+  border-color: #FFFFFF;
+  width: 91%;
+  height: 700px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#side-features-white {
+  display: inline-block;
+  float: right;
+  width: 30%;
+  text-align: center;
+  color: hsl(240, 10%, 40%);
+  margin-top: 48px;
+}
+
+
+#side-features-white div h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+#side-features-white div p {
+   font-size: 18px;
+   margin: 0;
+}
+
+#side-features-white div {
+  margin-top: 20px;
+  /*border-style: dotted;
+  border-color: #FFFFFF;*/
+}
+
 

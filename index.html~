@@ -41,7 +41,7 @@
 		<h1>Instant messaging, video conferencing, and more</h1>
 		<div id="features-white-wrapper">
 		<img src="images/Demo.png">
-		<div>
+		<div id="side-features-white">
 			<div>
 				<span class="fa fa-comment fa-5x"></span>
 				<h3>Messages</h3>
@@ -61,6 +61,26 @@
 	        </div>
 	</section>
         <section class="bck-grey" id="features-grey">
+		<div id="features-grey-wrapper">
+			<div>
+				<span class="fa fa-eye-slash" style="font-size: 115pt;"></span>
+				<h1>Security</h1>
+				<h3>Tox takes your privacy seriously.
+					With leading-class encryption, you can rest assured knowing that the only people reading your messages are the ones you send them to.</h3>
+			</div>
+				
+			<div>
+				<span class="fa fa-weixin" style="font-size: 115pt;"></span>
+				<h1>Ease of Use</h1>
+				<h3>Unlike other secure messaging solutions, Tox does not require you to be a computer programmer to use it. Tox comes out-of-the-box with an easy-to-use interface that allows you to focus on your conversations.</h3>
+			</div>
+
+			<div>
+				<span class="fa fa-github-alt" style="font-size: 115pt;"></span>
+				<h1>Freedom</h1>
+				<h3>Tox is both free for you to use, and free for you to change. You are completely free to both use and modify Tox. Furthermore, Tox will never harass you with ads, or require you to pay for features.</h3>
+			</div>
+		</div>
 	</section>
 	<footer>
 	   <section class="bck-black" id="footer-links">

@@ -16,7 +16,6 @@ html, body {
 }
 
 #main {
-  /*margin-top: -50px;*/
   height: 649px;
 }
 
@@ -166,8 +165,6 @@ html, body {
 }
 
 #features-white-wrapper {
-  border-style: dotted;
-  border-color: #FFFFFF;
   width: 91%;
   height: 700px; 
   margin-left: auto;
@@ -198,6 +195,36 @@ html, body {
   margin-top: 20px;
   /*border-style: dotted;
   border-color: #FFFFFF;*/
+}
+
+#features-grey-wrapper {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}  
+
+#features-grey-wrapper div {
+  display: inline-block;
+  color: hsl(240, 10%, 95%);
+  width: 30%; 
+  text-align: center;
+  padding-right: 20px;
+}
+
+#features-grey-wrapper div:last-child{
+  padding-right: 0px;
+}
+
+#features-grey-wrapper div h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+#features-grey-wrapper div h3 {
+  font-weight: 200;
+  margin: 0;
+  
 }
 
 

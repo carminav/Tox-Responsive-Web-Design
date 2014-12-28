@@ -197,4 +197,31 @@ html, body {
   border-color: #FFFFFF;*/
 }
 
+#features-grey-wrapper {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}  
+
+#features-grey-wrapper div {
+  display: inline-block;
+  color: hsl(240, 10%, 95%);
+  width: 30%; 
+  text-align: center;
+  padding-right: 20px;
+}
+
+
+#features-grey-wrapper div h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+#features-grey-wrapper div h3 {
+  font-weight: 200;
+  margin: 0;
+  
+}
+
 

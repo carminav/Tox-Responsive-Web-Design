@@ -16,7 +16,6 @@ html, body {
 }
 
 #main {
-  /*margin-top: -50px;*/
   height: 649px;
 }
 
@@ -25,7 +24,7 @@ html, body {
 }
 
 #features-white {
-   height: 430px;
+   height: 870px;
 }
 
 #features-grey {
@@ -155,6 +154,72 @@ html, body {
   font-size: 42px;
   margin: 0;
   text-align: center;
+  padding-top: 60px;
 
 }
+
+#features-white img {
+  display: inline-block;
+  float: left;
+  margin-top: 18px;
+}
+
+#features-white-wrapper {
+  width: 91%;
+  height: 700px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#side-features-white {
+  display: inline-block;
+  float: right;
+  width: 30%;
+  text-align: center;
+  color: hsl(240, 10%, 40%);
+  margin-top: 48px;
+}
+
+
+#side-features-white div h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+#side-features-white div p {
+   font-size: 18px;
+   margin: 0;
+}
+
+#side-features-white div {
+  margin-top: 20px;
+}
+
+#features-grey-wrapper {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}  
+
+#features-grey-wrapper div {
+  display: inline-block;
+  color: hsl(240, 10%, 95%);
+  width: 30%; 
+  text-align: center;
+  padding-right: 20px;
+}
+
+
+#features-grey-wrapper div h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+#features-grey-wrapper div h3 {
+  font-weight: 200;
+  margin: 0;
+  
+}
+
 
